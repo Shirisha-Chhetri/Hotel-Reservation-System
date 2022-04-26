@@ -1,0 +1,257 @@
+<script type="text/javascript">
+    function signup(){
+      Firstname = document.sign.fname.value;
+      Lastname = document.sign.lname.value;
+      Email=document.sign.email.value;
+      var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      Username = document.sign.username.value;
+      Password= document.sign.password.value;
+    
+      if(Firstname == ""){
+        alert("Please enter firstname");
+        return false;
+      }
+      if(!isNaN(Firstname)){
+        alert("Please enter valid name");
+        return false;
+      }
+      if(Lastname == ""){
+        alert("Please enter lastname");
+        return false;
+      }
+      if(!isNaN(Lastname)){
+        alert("Please enter valid name");
+        return false;
+      }
+      if(Username == ""){
+        alert("Please enter username");
+        return false;
+      }
+      if(Password == ""){
+        alert("Please enter password");
+        return false;
+      }
+      if(Password.length<5){
+        alert("password must be greater than 5");
+        return false;
+      }
+      if(Email == ""){
+        alert("Please enter email");
+        return false;
+      }
+      if (!Email.match(mailformat)) {
+        alert("Please Enter valid email");
+        return false;
+      }
+      return true;
+    }
+
+    // function log(){
+    //   User = document.fill.username.value;
+    //   Pass = document.fill.password.value;
+
+    //   if(User == ""){
+    //     alert("Please enter username");
+    //     return false;
+    //   }
+    //   if(Pass == ""){
+    //     alert("Please enter password");
+    //     return false;
+    //   }
+    //   if(Pass.length<5){
+    //     alert("password must be greater than 5");
+    //     return false;
+    //   }
+    //   return true;
+    // }
+     
+     function reserve(){
+      Phone = document.fill.contact.value;
+      var call = /^\d{10}$/;
+      if(Phone == ""){
+        alert("Please enter contact number");
+        return false;
+      }
+      if(!Phone.match(call)){
+        alert("contact must be 10 number");
+        return false;
+      }
+
+      Address = document.fill.address.value;
+      if(Address == ""){
+        alert("Please enter address");
+        return false;
+      }
+      if(!isNaN(Address)){
+        alert("Please enter valid address");
+        return false;
+      }
+
+      Gender =document.fill.gender;
+      var gendercheck = "";
+      for(var i=0; i<Gender.length; i++){
+        if(Gender[i].checked){
+          gendercheck=Gender[i].value;
+          break;
+        }
+      }
+        if(i == Gender.length){
+          alert("No radio button is selected");
+          return false;
+        }
+
+      Dob = document.fill.dob.value;
+      var pattern = /(\d{4})\-(\d{2})\-(\d{2})/;
+      var dob = new Date(Dob.replace(pattern,'$2-$3-$1'));   
+      var d = new Date();  
+      var valid = d.getFullYear()-dob.getFullYear();  
+       if(Dob == ""){
+        alert("date of birth is not entered");
+        return false;
+      }
+      else if(valid < 18){
+        alert("Must be greater than 18 years");
+        return false;
+      }
+
+      Room = document.fill.rooms.value;
+      if(Room == "-1"){
+        alert("Please select room type");
+        return false;
+
+      }
+      Number_room = document.fill.number.value;
+      if(Number_room == "-1"){
+        alert("Please select number of rooms");
+        return false;
+      }
+
+      Checkin = document.fill.check_in.value; 
+      var dt = new Date(Checkin.replace(pattern,'$2-$3-$1'));   
+      var d = new Date();  
+      if(Checkin == ""){
+        alert("specify check in date");
+        return false;
+      }
+     else if (dt < d) {
+        alert("Not a valid check-in date");
+        return false;
+      }
+      return true;
+    }
+
+    function add(){
+      Type = document.sign.name.value;
+      Description = document.sign.description.value;
+      Price = document.sign.price.value;
+      Room = document.sign.number.value;
+      Image1= document.sign.pic1.value;
+      Image2= document.sign.pic2.value;
+      
+      if(Type == ""){
+        alert("Please enter type of room");
+        return false;
+      }
+      if(!isNaN(Type)){
+        alert("Please enter valid roomtype");
+        return false;
+      }
+      if(Description == ""){
+        alert("Please enter description of room");
+        return false;
+      }
+      if(Price == ""){
+        alert("Please enter price");
+        return false;
+      }
+      else{
+        if(isNaN(Price)){
+        alert("Please enter price in number");
+        return false;
+      }
+      else if(Price <= 4000 ){
+        alert("Price must be greater than 4000");
+        return false;
+      }
+    }
+      if(Room == ""){
+        alert("Please enter total number of room");
+        return false;
+      }
+      else{
+        if(isNaN(Room)){
+        alert("Please enter total number of room in number");
+        return false;
+      }
+      else if(Room < 15 || Room >30 ){
+        alert("Room must be greater than 15 or less than 30");
+        return false;
+      }
+      }
+      if(Image1 == ""){
+        alert("Please choose image");
+        return false;
+      }
+      if(Image2 == ""){
+        alert("Please choose image");
+        return false;
+      }
+      return true;
+    }
+
+    function image(){
+      image1= document.sign.ima1.value;
+      image2= document.sign.ima2.value;
+    
+      if(image1 == ""){
+        alert("Please choose image");
+        return false;
+      }
+      if(image2 == ""){
+        alert("Please choose image");
+        return false;
+      }
+      return true;
+    }
+
+    // function payment() {
+    //   start = document.fill.startdate.value;
+    //   end = document.fill.enddate.value;
+    //   var pattern = /(\d{4})\-(\d{2})\-(\d{2})/;
+    //   //var dob = new Date(Dob.replace(pattern,'$2-$3-$1'));   
+    //   var d = new Date();   
+    //    if(start == ""){
+    //     alert("date is not entered");
+    //     return false;
+    //   }
+    //   else if(start > d){
+    //     alert("Must be less than today date");
+    //     return false;
+    //   }
+    //   if(end == ""){
+    //     alert("date is not entered");
+    //     return false;
+    //   }
+    //   else if(end > d){
+    //     alert("Must be less than today date");
+    //     return false;
+    //   }
+    //   else if(end<start){
+    //     alert("Must be greater than start date");
+    //   }
+    //   return true;
+    // }
+
+    function detail(){
+      customer=document.fill.customer.value;
+      if(customer == ""){
+        alert("Please fill Id");
+        return false;
+      }
+      else if(isNaN(customer)){
+        alert("Id must be in number");
+        return false;
+      }
+      return true;
+    }
+    </script>
