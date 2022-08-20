@@ -1,0 +1,58 @@
+a:hover{
+	color:black;
+}
+a{
+	color: black;
+}
+.error{
+	color: red;
+	margin-bottom: 1px;
+}
+body{
+	background-image: url("../../css/ima/view.jpg");
+}
+/*sec4*/
+#sec4{
+	color: white;
+	height:570px;
+}
+.head{
+	margin:-2pc 40%;
+	color: white;
+	font-size: 40px;
+	padding-top:5%;
+}
+.image{
+	height: 130px;
+	width: 150px;
+	align-content: center;
+	margin:4% 0px 4% 42%;
+}
+#user{
+	height: 40px;
+	width: 350px;
+	margin-left: 35%;
+	background-color:white;
+	border: none;
+}
+#pass{
+	margin-left: 35%;
+	height: 40px;
+	width: 350px;
+	background-color:white;
+	margin-top: 2pc;
+	border: none;
+}
+#login{
+	margin-left: 35%;
+	font-size: 22px;
+	color: black;
+	background-color: #b9abf3;
+	height: 50px;
+	width: 350px;
+	border: none;
+}
+.check{
+	margin-left:37%;
+	color: white;
+}

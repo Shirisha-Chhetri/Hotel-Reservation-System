@@ -1,0 +1,58 @@
+.error{
+	color:red;
+	margin-left:5.5pc;
+}
+/*sec4*/
+#sec4{
+	color: white;
+	background-image: url("ima/view.jpg");
+	margin-top:7px;
+	height:600px;
+}
+.head{
+	margin: 1% 40%;
+	color: white;
+	font-size: 40px;
+	padding-top:5%;
+}
+.image{
+	height: 130px;
+	width: 150px;
+	align-content: center;
+	margin-left:42%;
+	margin-bottom: 4%;
+}
+#user{
+	height: 40px;
+	width: 350px;
+	margin-left: 35%;
+	background-color:white;
+	border: none;
+}
+#password{
+	margin-left: 35%;
+	height: 40px;
+	width: 350px;
+	background-color:white;
+	margin-top: 2pc;
+	border: none;
+}
+#log{
+	margin-left: 35%;
+	font-size: 22px;
+	color: black;
+	background-color: #b9abf3;
+	height: 50px;
+	width: 350px;
+	border: none;
+}
+#register{
+	margin-left:41%;
+	font-size: 18px;
+	color: white;
+}
+#togglePassword{
+    margin-left:-2pc;
+    cursor: pointer;
+    color: black;
+}

@@ -1,0 +1,55 @@
+/*sec4*/
+#sec4{
+	background-image: url("ima/r3.jpg");
+	color: white;
+	margin-top:6px;
+	height:600px;
+}
+#bookroom{
+	font-size: 20px;
+	width:65%;
+	padding: 20px;
+	margin-right:13pc;
+	margin-left:auto;
+	border: 2px solid #000;
+	margin-top: 55px;
+	border-radius: 8px;
+	color: white;
+}
+label{
+	padding-left:3pc;
+}
+input, select {
+	border-radius: 4px;
+	border: 2px solid ;
+	padding: 1px;
+	margin-right: auto;
+	margin-left:44px;
+	margin-bottom: 12px;
+	font-size: 16px;
+}
+.heading{
+	margin-bottom: 22px;
+}
+.condition{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	margin-top: 2pc;
+}
+.anchor{
+	font-size: 20px;
+}
+.room{
+	margin-left: 3pc;
+	margin-bottom: 0pc;
+	color: red;
+}
+#number{
+	margin-left: 1pc;
+	color: red;
+	margin-bottom: 0pc;
+}
+::placeholder,.error{
+	color: red;
+}

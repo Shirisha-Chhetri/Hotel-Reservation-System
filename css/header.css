@@ -1,0 +1,136 @@
+a:hover{
+	color:black;
+}
+#sec1{
+	background-color: #b9abf3;
+	color:#ffffff;
+	width: 100%;
+}
+.excess{
+	list-style: none;
+	margin-top: 5px;
+	margin-left: -4pc;
+}
+.excess li{
+	float: left;
+	padding:3px 8px;
+	margin-left:3px;
+}
+.excess li:nth-child(1){
+	background-color: #3b5998;
+	padding-right:11px;
+}
+.excess li:nth-child(2){
+	background-color: #ea4335;
+}
+.excess li:nth-child(3){
+	background-color: #1da1f2;
+}
+.excess li:nth-child(4){
+  background-color:#125688;
+  margin-right: 0;
+}
+/*sec2 */
+.image1{
+	height: 100px;
+	width: 103px;
+	margin-top: -2pc;
+}
+.name{
+	font-weight: bold;
+	font-size: 55px;
+	margin-top: 10px;
+	margin-left: 4px;
+}
+#login button{
+	background-color: #b9abf3;
+	margin-left: 4px;
+	color: #000;
+	height: 40px;
+	width: 90px;
+	border: none;
+}
+a{
+	color: #000000;
+}
+.header{
+	width: 20%;
+	margin-bottom: 2px;
+	margin-left:40px;
+}
+/*for logo and session*/
+.dropbtn{
+  padding:4px;
+  width:20%;
+  margin:1pc 1px 13px 8pc;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b9abf3;
+  min-width: 120px;
+  margin-left:140px;
+  margin-top:-19%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding:6.5px 16px;
+  text-decoration: none;
+  display: block;
+}
+.show {
+  display: block;
+}
+
+/*sec3*/
+#sec3{
+	background-color: #b9abf3;
+	color:#ffffff;
+}
+.nav-links{
+	margin-right: 3pc;
+	font-size: 30px;
+	color: white;
+}
+
+/*sec 8*/
+#sec8{
+  background-color: #b9abf3;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.excess2{
+  list-style: none;
+  margin-top: 2pc;
+  margin-left: 0pc;
+  font-size: 20px;
+}
+.excess1{
+  list-style: none;
+  margin-top: 1pc;
+  margin-left: -2pc;
+  margin-bottom: 3.5pc;
+}
+.excess1 li{
+  float: left;
+  padding:3px 8px;
+  margin-left:3px;
+}
+.excess1 li:nth-child(1){
+  background-color: #3b5998;
+  padding-right:11px;
+}
+.excess1 li:nth-child(2){
+  background-color: #ea4335;
+}
+.excess1 li:nth-child(3){
+  background-color: #1da1f2;
+}
+.excess1 li:nth-child(4){
+  background-color:#125688;
+  margin-right: 0;
+}

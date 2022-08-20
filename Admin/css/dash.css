@@ -1,0 +1,189 @@
+a:hover{
+	color:black;
+}
+.error{
+  color: red;
+}
+a{
+  color: black !important;
+}
+/*sec2 */
+#sec2{
+  background-color: #52accc;
+  height:60px;
+  width: 100%;
+  z-index: 1000;
+}
+.image1{
+	height:63px;
+	width:76px;
+  margin-bottom:50px;
+}
+.name{
+  font-size: 40px;
+  margin-top: -7.5pc;
+  margin-left:8pc;
+}
+.echo{
+  padding-left:6pc;
+}
+/*for logo and session*/
+.dropbtn{
+  padding:4px;
+  width:27%;
+  margin:-3pc 1px 13px 8pc;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #52accc;
+  min-width: 120px;
+  margin-left:3pc;
+  margin-top:-3%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.show {
+  display: block;
+}
+/*sec3*/
+.sidenav {
+  height: 100%;
+  width: 145px;
+  position: fixed;
+  z-index: 1;
+  top:60px;
+  left: 0;
+  background-color: #52accc;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a{
+  padding: 9px 8px 7px 15px;
+  display: block;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+.sidenav i{
+  padding-right: 2pc;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 25px;}
+}
+
+/*for all other php's*/
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+/*addroom.php*/
+.form-group{
+  margin-top: 5pc;
+}
+
+/*contact.php*/
+.contact{
+  margin: 7pc 5pc;
+}
+
+/*home.php*/
+.welcome{
+  text-align: center;
+  margin-top:2pc;
+}
+.p{
+  margin-top: 5pc;
+  text-align: left;
+  font-size: x-large;
+  margin-left: 1pc;
+}
+
+/*user.php*/
+.main1{
+  margin-left:135px; 
+  padding-left: 1pc;
+  padding-right: 1pc; 
+  margin-top: 8pc;
+}
+.button{
+  background-color:#52accc;
+  border: none;
+  font-size: 20px;
+}
+.image{
+  height:7pc;
+  width: 7pc;
+  padding: 2px 4px;
+}
+.td{
+  padding:0pc 2pc 0pc 2pc;
+}
+table{
+  text-align: center;
+}
+
+/*for pagination*/
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 4pc 0pc 0pc 29pc;
+}
+ul.pagination li {
+  display: inline;
+}
+ul.pagination li a {
+    color: black;
+    float: left;
+    margin-right:8px;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+ul.pagination li.active a{
+    background-color: #52accc;
+    border: 1px solid #4CAF50;
+}
+ul.pagination li a:hover:not(.active) {
+  background-color: white;
+}
+
+/*update.php*/
+.myimage{
+  height: 15pc;
+  width: 100%;
+}
+
+/*image.php*/
+.main2{
+  margin-left: 12pc;  
+  margin-top: 8pc;
+}
+.table{
+  text-align: center;
+  width:100%;
+}
+.gallery{
+  height:10pc;
+  width:22pc;
+}
+
+/*detail.php*/
+.label1{
+    margin-left: 3pc;
+    font-size: 20px;
+  }
